@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	background: #DDDEE0
+}
+.topbar {
+	margin-top: 20px;
+	background: #DDDEE0
+}
+.logo a p {
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	background: #233B3F;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+	border-radius: 20px;
+	margin-right: 5px;
+}
+.logo a {
+	text-decoration: none;
+}
+.logo a span {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #233B3F;
+}
+.menu {
+	text-align: center;
+}
+.menu li {
+	display: inline-block;
+}
+.menu a {
+	padding: 10px 15px;
+	font-size: 14px;
+	color: #233B3F;
+	text-decoration: none;
+}
+.login a.btn {
+	padding: 10px 35px;
+	background: #fff;
+	font-size: 14px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	border-radius: 100px;
+	color: #233B3F;
+	font-weight: 500;
+}
+.login {
+	text-align: right;
+}
+.hero_area {
+	background-image:url("../images/Music-PNG-Pic.png");
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	margin-top: 40px;
+}
+.hero_text {
+	padding-top: 40px;
+}
+.hero_text h2 {
+	font-size: 62px;
+	line-height: 65px;
+	font-weight: 600;
+	color: #233B3F;
+	padding-top: 50px;
+}
+.hero_text p {
+	margin-top: 20px;
+	color: #777;
+	text-align: justify;
+}
+.hero_images {
+	text-align: center;
+}
+.hero_images img {
+	width: 100%;
+	margin-left: 30px;
+}
+.input_box {
+	width: 600px;
+	height: auto;
+	background: #fff;
+	border-radius: 100px;
+	padding: 20px;
+	position: relative;
+	margin-top: 30px;
+}
+.input_box input {
+	width: 100%;
+	background: transparent;
+	border: none;
+	border-radius: 30px;
+	padding-left: 20px;
+	outline: none;
+}
+.input_box label {
+	margin-left: 20px;
+	color: #777;
+	font-size: 14px;
+	background: none;
+}
+.input_btn button {
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	background: #233B3F;
+	padding: 15px 45px;
+	border-radius: 100px;
+	color: #fff;
+	border: none;
+}
